@@ -1,0 +1,67 @@
+
+  
+  .board {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #DCB83E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .add-note-btn {
+    position: fixed;
+    bottom: 20px;
+    font-size: 29px;
+    right: 20px;
+    padding: 7px 14px 7px 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .note {
+    position: absolute;
+    border: 1px solid #000;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ffffcc;
+    transition: box-shadow 0.3s ease;
+    width: 180px; 
+    height: 180px;
+  }
+  
+  .note p {
+    margin: 0;
+    cursor: pointer;
+  }
+  .note .btn-container{
+    display: none ;
+  }
+
+  .note:hover .btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
